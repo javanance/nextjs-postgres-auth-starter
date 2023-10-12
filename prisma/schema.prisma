@@ -18,3 +18,9 @@ model User {
   email     String  @unique
   password  String
 }
+
+model pets {
+  name      String     @id 
+  email     String    
+  
+}
